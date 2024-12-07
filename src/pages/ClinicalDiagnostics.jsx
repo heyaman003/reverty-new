@@ -41,14 +41,14 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-1 clearfix">
                 <div className="entry-image">
-                  <a href="clinical-diagnostics-biochemical-prenatal-testing.html">
+                  <Link to="/clinical-diagnostics-biochemical-prenatal-testing">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Clinical Diagnostics Biochemical Prenatal Testing"
                       style={{ opacity: 1 }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -57,14 +57,14 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-2 clearfix">
                 <div className="entry-image">
-                  <a href="clinical-diagnostics-newborn.html">
+                  <Link to="/clinical-diagnostics-newborn">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Clinical Diagnostics Newborn"
                       style={{ opacity: 1 }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -73,14 +73,14 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-3 clearfix">
                 <div className="entry-image">
-                  <a href="clinical-diagnostics-preeclampsia-testing.html">
+                  <Link to="/clinical-diagnostics-preeclampsia-testing">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Clinical Diagnostics Preeclampsia Testing"
                       style={{ opacity: 1 }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -89,14 +89,14 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-4 clearfix">
                 <div className="entry-image">
-                  <a href="clinical-diagnostics-nipt.html">
+                  <Link to="/clinical-diagnostics-nipt">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Clinical Diagnostics NIPT"
                       style={{ opacity: 1 }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,8 +105,8 @@ const ClinicalDiagnostics = () => {
 
         {/* Breadcrumb */}
         <ol className="breadcrumb">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><Link to="../index.html">Home</Link></li>
+          <li><Link to="portfolio.html">Portfolio</Link></li>
           <li className="active">Clinical & Diagnostics</li>
         </ol>
 

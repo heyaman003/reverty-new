@@ -1,7 +1,7 @@
 // src/components/ClinicalDiagnosticsNipt.jsx
 
 import React, { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 // Optional: You can create a separate CSS file for modal styles or include them in your existing stylesheets.
 
 const ClinicalDiagnosticsNipt = () => {
@@ -51,16 +51,16 @@ const ClinicalDiagnosticsNipt = () => {
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
-          <a href="../index.html" className="standard-logo">
+          <Link to="../index.html" className="standard-logo">
             <img src="../images/logo.png" alt="revvity" />
-          </a>
+          </Link>
         </div>
 
         {/* Back Button */}
         <div id="back">
-          <a href="clinical-diagnostics.html" className="standard">
+          <Link to="/ClinicalDiagnostics" className="standard">
             <img src="../images/back.png" alt="back" />
-          </a>
+          </Link>
         </div>
 
         {/* Home Banner */}
@@ -83,14 +83,14 @@ const ClinicalDiagnosticsNipt = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="nipt-1 clearfix">
                 <div className="entry-image">
-                  <a onClick={openModal1}>
+                  <Link onClick={openModal1}>
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Life Science 1"
                       style={{ opacity: 1, cursor: 'pointer' }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -129,14 +129,14 @@ const ClinicalDiagnosticsNipt = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="nipt-2 clearfix">
                 <div className="entry-image">
-                  <a onClick={openModal2}>
+                  <Link onClick={openModal2}>
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Life Science 2"
                       style={{ opacity: 1, cursor: 'pointer' }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -175,14 +175,14 @@ const ClinicalDiagnosticsNipt = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="nipt-3 clearfix">
                 <div className="entry-image">
-                  <a onClick={openModal3}>
+                  <Link onClick={openModal3}>
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Life Science 3"
                       style={{ opacity: 1, cursor: 'pointer' }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -221,14 +221,14 @@ const ClinicalDiagnosticsNipt = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="nipt-4 clearfix">
                 <div className="entry-image">
-                  <a onClick={openModal4}>
+                  <Link onClick={openModal4}>
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
                       alt="Life Science 4"
                       style={{ opacity: 1, cursor: 'pointer' }}
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -293,13 +293,13 @@ const ClinicalDiagnosticsNipt = () => {
         {/* Breadcrumb */}
         <ol className="breadcrumb">
           <li>
-            <a href="../index.html">Home</a>
+            <Link to="../index.html">Home</Link>
           </li>
           <li>
-            <a href="portfolio.html">Portfolio</a>
+            <Link to="portfolio.html">Portfolio</Link>
           </li>
           <li>
-            <a href="clinical-diagnostics.html">Clinical & Diagnostics</a>
+            <Link to="clinical-diagnostics.html">Clinical & Diagnostics</Link>
           </li>
           <li className="active">Biochemical Prenatal Testing</li>
         </ol>

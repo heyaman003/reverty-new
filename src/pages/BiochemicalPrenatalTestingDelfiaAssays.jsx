@@ -30,7 +30,7 @@ const BiochemicalPrenatalTestingDelfiaAssays = () => {
 
         {/* Back Button */}
         <div id="back">
-          <Link to="/clinical-diagnostics-preeclampsia-testing.html" className="standard-back">
+          <Link to="/clinical-diagnostics-preeclampsia-testing" className="standard-back">
             <img src="/images/back.png" alt="back" />
           </Link>
         </div>
@@ -53,7 +53,7 @@ const BiochemicalPrenatalTestingDelfiaAssays = () => {
           <div className="clearfix">
             {/* Links to Open Modals */}
             {[...Array(10)].map((_, index) => (
-              <a
+              <Link
                 href={`#myModal-${index + 1}`}
                 data-lightbox="inline"
                 className={`delfia-${index + 1}`}
@@ -63,7 +63,7 @@ const BiochemicalPrenatalTestingDelfiaAssays = () => {
                 }}
                 style={{ cursor: 'pointer' }}
                 key={index}
-              ></a>
+              ></Link>
             ))}
 
             {/* Modal Components */}

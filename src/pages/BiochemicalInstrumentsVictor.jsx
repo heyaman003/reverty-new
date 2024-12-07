@@ -18,14 +18,14 @@ const BiochemicalInstrumentsVictor = () => {
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
-          <Link to="/index.html" className="standard-logo">
+          <Link to="/" className="standard-logo">
             <img src="/images/logo.png" alt="revvity" />
           </Link>
         </div>
 
         {/* Back Button */}
         <div id="back">
-          <Link to="//biochemical-prenatal-testing-instruments" className="standard-back">
+          <Link to="/biochemical-prenatal-testing-instruments" className="standard-back">
             <img src="/images/back.png" alt="back" />
           </Link>
         </div>
@@ -49,13 +49,13 @@ const BiochemicalInstrumentsVictor = () => {
           <ul className="tabs uppertab">
             {/* Overview Tab */}
             <li>
-              <a
+              <Link
                 href="#overview"
                 onClick={(e) => handleTabClick(e, 'overview')}
                 className={activeTab === 'overview' ? 'active' : ''}
               >
                 Overview
-              </a>
+              </Link>
             </li>
             {/* Description Paragraph */}
             <p className="tab_btm_margin">
@@ -63,13 +63,13 @@ const BiochemicalInstrumentsVictor = () => {
             </p>
             {/* Capabilities Tab */}
             <li>
-              <a
+              <Link
                 href="#capabilities"
                 onClick={(e) => handleTabClick(e, 'capabilities')}
                 className={activeTab === 'capabilities' ? 'active' : ''}
               >
                 Capabilities
-              </a>
+              </Link>
             </li>
           </ul>
 
@@ -140,16 +140,16 @@ const BiochemicalInstrumentsVictor = () => {
         {/* Breadcrumb */}
         <ol className="breadcrumb">
           <li>
-            <Link to="/index.html">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/portfolio.html">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="/clinical-diagnostics.html">Clinical & Diagnostics</Link>
+            <Link to="/clinical-diagnostics">Clinical & Diagnostics</Link>
           </li>
           <li>
-            <Link to="/clinical-diagnostics-biochemical-prenatal-testing.html">Biochemical Prenatal Testing</Link>
+            <Link to="/clinical-diagnostics-biochemical-prenatal-testing">Biochemical Prenatal Testing</Link>
           </li>
           <li>
             <Link to="/biochemical-prenatal-testing-instruments">Instruments</Link>

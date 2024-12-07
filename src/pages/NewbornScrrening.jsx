@@ -34,7 +34,7 @@ const NewbornScreening = () => {
 
         {/* Back Button */}
         <div id="back">
-          <Link to="/clinical-diagnostics.html" className="standard">
+          <Link to="/ClinicalDiagnostics" className="standard">
             <img src="../images/back.png" alt="back" />
           </Link>
         </div>
@@ -60,14 +60,14 @@ const NewbornScreening = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="newborn-1 clearfix">
                   <div className="entry-image">
-                    <a href="#" className="disable">
+                    <Link to="#" className="disable">
                       <img
                         className="image_fade"
                         src="../images/life-science-1.png"
                         alt="Life Science 1"
                         style={{ opacity: 1 }}
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -92,14 +92,14 @@ const NewbornScreening = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="newborn-3 clearfix">
                   <div className="entry-image">
-                    <a href="#" className="disable">
+                    <Link to="#" className="disable">
                       <img
                         className="image_fade"
                         src="../images/life-science-1.png"
                         alt="Life Science 3"
                         style={{ opacity: 1 }}
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

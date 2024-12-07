@@ -22,7 +22,7 @@ const Punching = () => {
 
         {/* Back Button */}
         <div id="back">
-          <Link to="/clinical-diagnostics-newborn.html" className="standard-back">
+          <Link to="/clinical-diagnostics-newborn" className="standard-back">
             <img src="/images/back.png" alt="back" />
           </Link>
         </div>

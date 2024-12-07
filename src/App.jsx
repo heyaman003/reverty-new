@@ -64,21 +64,11 @@ import BiochemicalPrenatalTestingDelfiaAssays from './pages/BiochemicalPrenatalT
 import BiochemicalPrenatalTestingInstruments from './pages/BiochemicalPrenatalTestingInstruments';
 import BiochemicalInstrumentsAutodelfia from './pages/BiochemicalInstrumentsAutodelfia';
 
-const AnimatedRoutes = ({ setLoading }) => {
-  const location = useLocation();
-
-  useEffect(() => {
-    // Show preloader when route changes
-    setLoading(true);
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1500); // Adjust the delay as needed
-
-    return () => clearTimeout(timer);
-  }, []);
+function App() {
+  
 
   return (
-    <AnimatePresence mode="wait">
+    <BrowserRouter>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
@@ -146,23 +136,7 @@ const AnimatedRoutes = ({ setLoading }) => {
         <Route path="/biochemical-prenatal-testing-instruments" element={<BiochemicalPrenatalTestingInstruments/>} />
         <Route path="/biochemical-instruments-autodelfia" element={<BiochemicalInstrumentsAutodelfia/>} />
       </Routes>
-    </AnimatePresence>
-  );
-};
-
-function App() {
-  const [loading, setLoading] = useState(true);
-
-  return (
-    <BrowserRouter>
-      {/* Global Preloader */}
-      <AnimatePresence mode="wait">
-        {loading && <Preloader />}
-      </AnimatePresence>
-
-      {/* Animated Routes */}
-      <AnimatedRoutes setLoading={setLoading} />
-    </BrowserRouter>
+      </BrowserRouter>  
   );
 }
 

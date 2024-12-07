@@ -47,13 +47,13 @@ const BiochemicalInstrumentsAutodelfia = () => {
           <ul className="tabs uppertab">
             {/* Overview Tab */}
             <li>
-              <a
+              <Link
                 href="#tab1"
                 onClick={(e) => handleTabClick(e, 'overview')}
                 className={activeTab === 'overview' ? 'active' : ''}
               >
                 Overview
-              </a>
+              </Link>
             </li>
             {/* Description Paragraph */}
             <p className="tab_btm_margin">
@@ -65,13 +65,13 @@ const BiochemicalInstrumentsAutodelfia = () => {
             </p>
             {/* Capabilities Tab */}
             <li>
-              <a
+              <Link
                 href="#tab2"
                 onClick={(e) => handleTabClick(e, 'capabilities')}
                 className={activeTab === 'capabilities' ? 'active' : ''}
               >
                 Capabilities
-              </a>
+              </Link>
             </li>
           </ul>
 

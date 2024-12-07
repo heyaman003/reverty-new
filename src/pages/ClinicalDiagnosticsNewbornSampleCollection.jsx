@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ClinicalDiagnosticsNewbornSampleCollection = () => {
     return (
@@ -7,15 +8,15 @@ const ClinicalDiagnosticsNewbornSampleCollection = () => {
     
           <div id="" className="clearfix">
             <div id="logo">
-              <a href="../index.html" className="standard-logo">
+              <Link to="/" className="standard-logo">
                 <img src="../images/logo.png" alt="revvity" />
-              </a>
+              </Link>
             </div>
     
             <div id="back">
-              <a href="clinical-diagnostics-newborn.html" className="standard-back">
+              <Link to="/clinical-diagnostics-newborn" className="standard-back">
                 <img src="../images/back.png" alt="back" />
-              </a>
+              </Link>
             </div>
     
             <div id="home-banner">
@@ -32,7 +33,7 @@ const ClinicalDiagnosticsNewbornSampleCollection = () => {
             <section id="content">
               <div className="tab_bg"></div>
               <ul className="tabs uppertab">
-                <a href="#tab1">Overview</a>
+                <Link to="#tab1">Overview</Link>
                 <p className="tab_btm_margin">
                   Revvity 226 Sample Collection Device is a dried blood spot
                   collection card comprised of 100% pure cotton linter filter paper
@@ -55,10 +56,10 @@ const ClinicalDiagnosticsNewbornSampleCollection = () => {
               {/* 
               <div id="tab2" className="tab_content uppertabcontent">
                 <ul className="tabs">
-                  <li><a className="subtab" href="#tab2-1">Easy Operation</a></li>
-                  <li><a className="subtab" href="#tab2-2">Sample Preparation</a></li>
-                  <li><a className="subtab" href="#tab2-3">Image Focus</a></li>
-                  <li><a className="subtab" href="#tab2-4">Super Fast Scanning</a></li>
+                  <li><Link className="subtab" href="#tab2-1">Easy Operation</Link></li>
+                  <li><Link className="subtab" href="#tab2-2">Sample Preparation</Link></li>
+                  <li><Link className="subtab" href="#tab2-3">Image Focus</Link></li>
+                  <li><Link className="subtab" href="#tab2-4">Super Fast Scanning</Link></li>
                 </ul>
                 <div id="tab2-1">
                   <video
@@ -78,16 +79,16 @@ const ClinicalDiagnosticsNewbornSampleCollection = () => {
     
             <ol className="breadcrumb">
               <li>
-                <a href="../index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="portfolio.html">Portfolio</a>
+                <Link to="/portfolio.html">Portfolio</Link>
               </li>
               <li>
-                <a href="clinical-diagnostics.html">Clinical & Diagnostics</a>
+                <Link to="/clinical-diagnostics">Clinical & Diagnostics</Link>
               </li>
               <li>
-                <a href="clinical-diagnostics-newborn.html">Newborn Screening</a>
+                <Link to="/clinical-diagnostics-newborn">Newborn Screening</Link>
               </li>
               <li className="active">Sample Collection</li>
             </ol>

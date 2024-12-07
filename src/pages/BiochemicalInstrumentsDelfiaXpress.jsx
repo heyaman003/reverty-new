@@ -8,15 +8,15 @@ const BiochemicalInstrumentsDelfiaXpress = () => {
     <>
       <div id="" className="clearfix">
         <div id="logo">
-          <a href="../index.html" className="standard-logo">
+          <Link to="../index.html" className="standard-logo">
             <img src="../images/logo.png" alt="revvity" />
-          </a>
+          </Link>
         </div>
 
         <div id="back">
-          <a href="/biochemical-prenatal-testing-instruments" className="standard-back">
+          <Link to="/biochemical-prenatal-testing-instruments" className="standard-back">
             <img src="../images/back.png" alt="back" />
-          </a>
+          </Link>
         </div>
 
         <div id="home-banner">
@@ -33,25 +33,25 @@ const BiochemicalInstrumentsDelfiaXpress = () => {
         <section id="content">
           <div className="tab_bg"></div>
           <ul className="tabs uppertab">
-            <a
+            <Link
               href="#tab1"
               onClick={() => setActiveTab('overview')}
               className={activeTab === 'overview' ? 'active' : ''}
             >
               Overview
-            </a>
+            </Link>
             <p className="tab_btm_margin">
               DELFIA® Xpress 6000-0010 random access platform Fast and reliable DELFIA Xpress
               represents an ideal solution for clinics wishing to implement an OSCAR (One Stop Clinic
               for Assesment of Risk) approach.
             </p>
-            <a
+            <Link
               href="#tab2"
               onClick={() => setActiveTab('capabilities')}
               className={activeTab === 'capabilities' ? 'active' : ''}
             >
               Capabilities
-            </a>
+            </Link>
           </ul>
 
           {/* Conditionally render tab content based on the activeTab state */}
@@ -112,21 +112,21 @@ const BiochemicalInstrumentsDelfiaXpress = () => {
 
         <ol className="breadcrumb">
           <li>
-            <a href="../index.html">Home</a>
+            <Link to="../index.html">Home</Link>
           </li>
           <li>
-            <a href="portfolio.html">Portfolio</a>
+            <Link to="portfolio.html">Portfolio</Link>
           </li>
           <li>
-            <a href="clinical-diagnostics.html">Clinical & Diagnostics</a>
+            <Link to="clinical-diagnostics.html">Clinical & Diagnostics</Link>
           </li>
           <li>
-            <a href="clinical-diagnostics-biochemical-prenatal-testing.html">
+            <Link to="clinical-diagnostics-biochemical-prenatal-testing.html">
               Biochemical Prenatal Testing
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/biochemical-prenatal-testing-instruments">Instruments</a>
+            <Link to="/biochemical-prenatal-testing-instruments">Instruments</Link>
           </li>
           <li className="active">DELFIA® Xpress</li>
         </ol>

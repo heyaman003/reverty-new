@@ -8,15 +8,15 @@ const BiochemicalPrenatalTestingInstruments = () => {
 
       <div id="" className="clearfix">
         <div id="logo">
-          <a href="../index.html" className="standard-logo">
+          <Link to="../index.html" className="standard-logo">
             <img src='../images/logo.png' alt="Revvity" />
-          </a>
+          </Link>
         </div>
 
         <div id="back">
-          <a href="clinical-diagnostics-preeclampsia-testing.html" className="standard-back">
+          <Link to="/clinical-diagnostics-preeclampsia-testing" className="standard-back">
             <img src='../images/back.png' alt="Back" />
-          </a>
+          </Link>
         </div>
 
         <div id="home-banner">
@@ -58,10 +58,10 @@ const BiochemicalPrenatalTestingInstruments = () => {
         </section>
 
         <ol className="breadcrumb">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="clinical-diagnostics.html">Clinical & Diagnostics</a></li>
-          <li><a href="clinical-diagnostics-biochemical-prenatal-testing.html">Biochemical Prenatal Testing</a></li>
+          <li><Link to="../index.html">Home</Link></li>
+          <li><Link to="portfolio.html">Portfolio</Link></li>
+          <li><Link to="clinical-diagnostics.html">Clinical & Diagnostics</Link></li>
+          <li><Link to="clinical-diagnostics-biochemical-prenatal-testing.html">Biochemical Prenatal Testing</Link></li>
           <li className="active">Instruments</li>
         </ol>
       </div>

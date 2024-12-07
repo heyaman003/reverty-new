@@ -26,7 +26,7 @@ const ClinicalDiagnosticsPreeclampsiaTesting = () => {
 
         {/* Back Button */}
         <div id="back">
-          <Link to="clinical-diagnostics.html" className="standard">
+          <Link to="/ClinicalDiagnostics" className="standard">
             <img src="../images/back.png" alt="back" />
           </Link>
         </div>
