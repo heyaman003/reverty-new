@@ -1,26 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
-const CellGeneTheraphy = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+const CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions = () => {
   return (
-    <div className="stretched">
-      {/* Preloader */}
-   
+    <>
 
-      {/* Document Wrapper */}
+      {/* Wrapper */}
       <div id="" className="clearfix">
+        {/* Logo */}
         <div id="logo">
-          <Link to="/" className="standard-logo">
+          <Link to="../index.html" className="standard-logo">
             <img src="../images/logo.png" alt="Revvity" />
           </Link>
         </div>
 
+        {/* Back Button */}
         <div id="back">
-          <Link to="/ResearchSolution" className="standard-back">
-            <img src="../images/back.png" alt="Back" />
+          <Link
+            to="/CellGeneTheraphyTherapeuticPayloadDelivery"
+            className="standard-back"
+          >
+            <img src="../images/back.png" alt="back" />
           </Link>
         </div>
 
+        {/* Home Banner */}
         <div id="home-banner">
           <video
             id="home-video"
@@ -28,20 +31,21 @@ const CellGeneTheraphy = () => {
             muted
             loop
             playsInline
-            src="../images/02/03/02-3-1-Cell&Gene-theraphy.webm"
+            src="../images/therapy-solutions.webm"
           ></video>
         </div>
 
+        {/* Content Section */}
         <section id="content">
           <div className="clearfix">
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="cell_genetheraphy_p3_1 clearfix">
+              <div className="therapy_solution_1 clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyDiscoveryIdentification">
+                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMojosort">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Discovery & Identification"
+                      alt="Image"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -50,13 +54,13 @@ const CellGeneTheraphy = () => {
             </div>
 
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="cell_genetheraphy_p3_2 clearfix">
+              <div className="therapy_solution_2 clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDelivery">
+                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCounters">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Therapeutic Payload Delivery"
+                      alt="Image"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -65,13 +69,13 @@ const CellGeneTheraphy = () => {
             </div>
 
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="cell_genetheraphy_p3_3 clearfix">
+              <div className="therapy_solution_3 clearfix">
                 <div className="entry-image">
-                  <Link to="cell-gene-theraphy-preclinical-development.html">
+                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsHomogeneousImmunoassays">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Preclinical Development"
+                      alt="Image"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -80,28 +84,13 @@ const CellGeneTheraphy = () => {
             </div>
 
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="cell_genetheraphy_p3_4 clearfix">
+              <div className="therapy_solution_4 clearfix">
                 <div className="entry-image">
-                  <Link to="cell-gene-theraphy-aq-qc.html">
+                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMultiplexPanels">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="AQ QC"
-                      style={{ opacity: 1 }}
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="cell_genetheraphy_p3_5 clearfix">
-                <div className="entry-image">
-                  <Link to="cell-gene-theraphy-manufacturing-scaleup.html">
-                    <img
-                      className="image_fade"
-                      src="../images/life-science-1.png"
-                      alt="Manufacturing Scale-up"
+                      alt="Image"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -111,6 +100,7 @@ const CellGeneTheraphy = () => {
           </div>
         </section>
 
+        {/* Breadcrumb */}
         <ol className="breadcrumb">
           <li>
             <Link to="/">Home</Link>
@@ -124,17 +114,19 @@ const CellGeneTheraphy = () => {
           <li>
             <Link to="/ResearchSolution">Research Solution</Link>
           </li>
-          <li className="active">Cell & Gene Therapy</li>
+          <li>
+            <Link to="/CellGeneTheraphy">Cell & Gene Therapy</Link>
+          </li>
+          <li>
+            <Link to="/CellGeneTheraphyTherapeuticPayloadDelivery">
+              Therapeutic Payload and Delivery
+            </Link>
+          </li>
+          <li className="active">CAR-T Therapy Solutions</li>
         </ol>
       </div>
-
-      {/* External Scripts */}
-      <script src="../js/jquery.js"></script>
-      <script src="../js/functions.js"></script>
-      <script src="../js/plugins.js"></script>
-      <script src="../js/uppertab.js"></script>
-    </div>
+    </>
   );
 };
 
-export default CellGeneTheraphy;
+export default CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions;
