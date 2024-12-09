@@ -47,7 +47,7 @@ import InvivoLuminaFluorescent from './pages/InvivoLuminaFluorescent';
 import InvivoLuminaRadionuclides from './pages/InvivoLuminaRadionuclides';
 import InvivoQuantum from './pages/InvivoQuantum';
 import InvivoVega from './pages/InvivoVega';
-import CellGeneTheraphy from './pages/CellGeneTheraphy';
+// import CellGeneTheraphy from './pages/CellGeneTheraphy';
 import Organoids from './pages/Organoids';
 import DrugDevelopment from './pages/DrugDevelopment';
 import DrugDevelopmentSelection from './pages/DrugDevelopmentSelection';
@@ -63,7 +63,49 @@ import BiochemicalInstrumentsDelfiaXpress from './pages/BiochemicalInstrumentsDe
 import BiochemicalPrenatalTestingDelfiaAssays from './pages/BiochemicalPrenatalTestingDelfiaAssays';
 import BiochemicalPrenatalTestingInstruments from './pages/BiochemicalPrenatalTestingInstruments';
 import BiochemicalInstrumentsAutodelfia from './pages/BiochemicalInstrumentsAutodelfia';
-import PlatformQsight from './pages/PlatformQsight';
+// Pagees 3 Components Imports Srart
+import CellGeneTheraphy from './Pages3/CellGeneTheraphy';
+import DrugDevelopmentUnderstandingBiology from './Pages3/DrugDevelopmentUnderstandingBiology';
+import CellGeneTheraphyDiscoveryIdentification from './Pages3/CellGeneTheraphyDiscoveryIdentification';
+import CellGeneTheraphySamplePreparationSolution from './Pages3/CellGeneTheraphySamplePreparationSolution';
+import CellGeneTheraphySamplePreparationSolutionChemagic360 from './Pages3/CellGeneTheraphySamplePreparationSolutionChemagic360';
+import CellGeneTheraphySamplePreparationSolutionChemagicPrime from './Pages3/CellGeneTheraphySamplePreparationSolutionChemagicPrime';
+import CellGeneTheraphySamplePreparationSolutionChemagicPrimeJunior from './Pages3/CellGeneTheraphySamplePreparationSolutionChemagicPrimeJunior';
+import CellGeneTheraphyNsgLibraryPrepartion from './Pages3/CellGeneTheraphyNsgLibraryPrepartion';
+import CellGeneTheraphyNsgLibraryPrepartionDampleDisaggregation from './Pages3/CellGeneTheraphyNsgLibraryPrepartionDampleDisaggregation';
+import CellGeneTheraphyNsgLibraryPrepartionNucleicAcidIsolation from './Pages3/CellGeneTheraphyNsgLibraryPrepartionNucleicAcidIsolation';
+import CellGeneTheraphyNsgLibraryPrepartionMicrofluidic from './Pages3/CellGeneTheraphyNsgLibraryPrepartionMicrofluidic';
+import CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstations from './Pages3/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstations';
+import CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsFontus from './Pages3/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsFontus';
+import CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsJanus from './Pages3/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsJanus';
+import CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsSciclone from './Pages3/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsSciclone';
+import CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsBioqule from './Pages3/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsBioqule';
+import CellGeneTheraphyDiscoveryIdentificationMimixPanel from './Pages3/CellGeneTheraphyDiscoveryIdentificationMimixPanel';
+import CellGeneTheraphyDiscoveryIdentificationCellLineEngineering from './Pages3/CellGeneTheraphyDiscoveryIdentificationCellLineEngineering';
+import CellGeneTheraphyDiscoveryIdentificationMultimodePlateReader from './Pages3/CellGeneTheraphyDiscoveryIdentificationMultimodePlateReader';
+import CellGeneTheraphyDiscoveryIdentificationMultimodeNivo from './Pages3/CellGeneTheraphyDiscoveryIdentificationMultimodeNivo';
+import CellGeneTheraphyDiscoveryIdentificationMultimodeEnsight from './Pages3/CellGeneTheraphyDiscoveryIdentificationMultimodeEnsight';
+import CellGeneTheraphyDiscoverIidentificationMultimodeNexus from './Pages3/CellGeneTheraphyDiscoverIidentificationMultimodeNexus';
+import CellGeneTheraphyDiscoveryIdentificationImaging from './Pages3/CellGeneTheraphyDiscoveryIdentificationImaging';
+import CellGeneTheraphyDiscoveryIdentificationDualplexAssays from './Pages3/CellGeneTheraphyDiscoveryIdentificationDualplexAssays';
+import CellGeneTheraphyDiscoveryIdentificationGeneEditing from './Pages3/CellGeneTheraphyDiscoveryIdentificationGeneEditing';
+
+
+
+import CellGeneTheraphyTherapeuticPayloadDelivery from './Pages3/CellGeneTheraphyTherapeuticPayloadDelivery';
+import GellGeneTheraphyTherapeuticPayloadDeliveryPayload from './Pages3/GellGeneTheraphyTherapeuticPayloadDeliveryPayload';
+import CellGeneTheraphyTherapeuticPayloadDeliveryDelivery from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryDelivery';
+import CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryAdenoAssociatedViruses from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryAdenoAssociatedViruses';
+import CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryDirectedEvolution from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryDirectedEvolution';
+import CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryNanobodyTargeting from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryNanobodyTargeting';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMojosort from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMojosort';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCounters from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCounters';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaPlx from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaPlx';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaMx from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaMx';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCeligo from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCeligo';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsHomogeneousImmunoassays from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsHomogeneousImmunoassays';
+import CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMultiplexPanels from './Pages3/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMultiplexPanels';import PlatformQsight from './pages/PlatformQsight';
 import PlatformGSP from './pages/PlatformGsp';
 import MigeleInstrument from './pages/PlatformMigele';
 import Victor2DInstrument from './pages/PlatformVictor2';
@@ -138,11 +180,55 @@ function App() {
         <Route path="/clinical-diagnostics-newborn-sample-collection" element={<ClinicalDiagnosticsNewbornSampleCollection/>} />
         <Route path="/punching" element={<Punching/>} />
         <Route path="/platform" element={<Platform/>} />
-        <Route path="/biochemical-instruments-victor" element={<BiochemicalInstrumentsVictor/>} />
+        <Route path="2" element={<BiochemicalInstrumentsVictor/>} />
         <Route path="/biochemical-instruments-delfia-xpress" element={<BiochemicalInstrumentsDelfiaXpress/>} />
         <Route path="/biochemical-prenatal-testing-delfia-assays" element={<BiochemicalPrenatalTestingDelfiaAssays/>} />
         <Route path="/biochemical-prenatal-testing-instruments" element={<BiochemicalPrenatalTestingInstruments/>} />
         <Route path="/biochemical-instruments-autodelfia" element={<BiochemicalInstrumentsAutodelfia/>} />
+
+          {/* Pages2 Components Start */}
+          <Route path="/DrugDevelopmentUnderstandingBiology" element={<DrugDevelopmentUnderstandingBiology/>} />
+        <Route path="/CellGeneTheraphy" element={<CellGeneTheraphy/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentification" element={<CellGeneTheraphyDiscoveryIdentification/>} />
+        <Route path="/CellGeneTheraphySamplePreparationSolution" element={<CellGeneTheraphySamplePreparationSolution/>} />
+        <Route path="/CellGeneTheraphySamplePreparationSolutionChemagic360" element={<CellGeneTheraphySamplePreparationSolutionChemagic360/>} />
+        <Route path="/CellGeneTheraphySamplePreparationSolutionChemagicPrime" element={<CellGeneTheraphySamplePreparationSolutionChemagicPrime/>} />
+        <Route path="/CellGeneTheraphySamplePreparationSolutionChemagicPrimeJunior" element={<CellGeneTheraphySamplePreparationSolutionChemagicPrimeJunior/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartion" element={<CellGeneTheraphyNsgLibraryPrepartion/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionDampleDisaggregation" element={<CellGeneTheraphyNsgLibraryPrepartionDampleDisaggregation/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionNucleicAcidIsolation" element={<CellGeneTheraphyNsgLibraryPrepartionNucleicAcidIsolation/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionMicrofluidic" element={<CellGeneTheraphyNsgLibraryPrepartionMicrofluidic/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstations" element={<CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstations/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsFontus" element={<CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsFontus/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsJanus" element={<CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsJanus/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsSciclone" element={<CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsSciclone/>} />
+        <Route path="/CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsBioqule" element={<CellGeneTheraphyNsgLibraryPrepartionLiquidHandlingWorkstationsBioqule/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationMimixPanel" element={<CellGeneTheraphyDiscoveryIdentificationMimixPanel/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationCellLineEngineering" element={<CellGeneTheraphyDiscoveryIdentificationCellLineEngineering/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationMultimodePlateReader" element={<CellGeneTheraphyDiscoveryIdentificationMultimodePlateReader/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationMultimodeNivo" element={<CellGeneTheraphyDiscoveryIdentificationMultimodeNivo/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationMultimodeEnsight" element={<CellGeneTheraphyDiscoveryIdentificationMultimodeEnsight/>} />
+        <Route path="/CellGeneTheraphyDiscoverIidentificationMultimodeNexus" element={<CellGeneTheraphyDiscoverIidentificationMultimodeNexus/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationImaging" element={<CellGeneTheraphyDiscoveryIdentificationImaging/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationDualplexAssays" element={<CellGeneTheraphyDiscoveryIdentificationDualplexAssays/>} />
+        <Route path="/CellGeneTheraphyDiscoveryIdentificationGeneEditing" element={<CellGeneTheraphyDiscoveryIdentificationGeneEditing/>} />
+       
+
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDelivery" element={<CellGeneTheraphyTherapeuticPayloadDelivery/>} />
+        <Route path="/GellGeneTheraphyTherapeuticPayloadDeliveryPayload" element={<GellGeneTheraphyTherapeuticPayloadDeliveryPayload/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryDelivery" element={<CellGeneTheraphyTherapeuticPayloadDeliveryDelivery/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryAdenoAssociatedViruses" element={<CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryAdenoAssociatedViruses/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryDirectedEvolution" element={<CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryDirectedEvolution/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryNanobodyTargeting" element={<CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryNanobodyTargeting/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMojosort" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMojosort/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCounters" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCounters/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaPlx" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaPlx/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaMx" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCellecaMx/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCeligo" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCountingCeligo/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsHomogeneousImmunoassays" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsHomogeneousImmunoassays/>} />
+        <Route path="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMultiplexPanels" element={<CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMultiplexPanels/>} />
+        {/* Pages2 Components End */}
         {/* last day changes aman */}
         <Route path="/platform-qsight" element={<PlatformQsight/>} />
         <Route path="/platform-gsp" element={<PlatformGSP/>} />
