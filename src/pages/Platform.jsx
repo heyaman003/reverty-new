@@ -49,7 +49,7 @@ const Platform = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="platform-1 clearfix">
                   <div className="entry-image">
-                    <Link to="/platform-qsight.html">
+                    <Link to="/platform-qsight">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
@@ -66,7 +66,7 @@ const Platform = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="platform-2 clearfix">
                   <div className="entry-image">
-                    <Link to="/platform-gsp.html">
+                    <Link to="/platform-gsp">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
@@ -83,7 +83,7 @@ const Platform = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="platform-3 clearfix">
                   <div className="entry-image">
-                    <Link to="/platform-migele.html">
+                    <Link to="/platform-migele">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
@@ -100,7 +100,7 @@ const Platform = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="platform-4 clearfix">
                   <div className="entry-image">
-                    <Link to="/platform-victor2.html">
+                    <Link to="/platform-victor2">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
@@ -117,7 +117,7 @@ const Platform = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="platform-5 clearfix">
                   <div className="entry-image">
-                    <Link to="/biochemical-instruments-delfiatrio.html">
+                    <Link to="/biochemical-instruments-delfiatrio">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
@@ -134,7 +134,7 @@ const Platform = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="platform-6 clearfix">
                   <div className="entry-image">
-                    <Link to="/platform-eonis.html">
+                    <Link to="/platform-eonis">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"

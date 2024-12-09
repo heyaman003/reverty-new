@@ -63,6 +63,14 @@ import BiochemicalInstrumentsDelfiaXpress from './pages/BiochemicalInstrumentsDe
 import BiochemicalPrenatalTestingDelfiaAssays from './pages/BiochemicalPrenatalTestingDelfiaAssays';
 import BiochemicalPrenatalTestingInstruments from './pages/BiochemicalPrenatalTestingInstruments';
 import BiochemicalInstrumentsAutodelfia from './pages/BiochemicalInstrumentsAutodelfia';
+import PlatformQsight from './pages/PlatformQsight';
+import PlatformGSP from './pages/PlatformGsp';
+import MigeleInstrument from './pages/PlatformMigele';
+import Victor2DInstrument from './pages/PlatformVictor2';
+import AutoDELFIA from './pages/BiochemicalInstrumentsDelfiatrio';
+import EonisSystem from './pages/PlatformEonis';
+import DBSPuncher from './pages/PunchingDbsPuncher';
+import DBS_Panthera from './pages/PunchingQuater';
 
 function App() {
   
@@ -135,6 +143,16 @@ function App() {
         <Route path="/biochemical-prenatal-testing-delfia-assays" element={<BiochemicalPrenatalTestingDelfiaAssays/>} />
         <Route path="/biochemical-prenatal-testing-instruments" element={<BiochemicalPrenatalTestingInstruments/>} />
         <Route path="/biochemical-instruments-autodelfia" element={<BiochemicalInstrumentsAutodelfia/>} />
+        {/* last day changes aman */}
+        <Route path="/platform-qsight" element={<PlatformQsight/>} />
+        <Route path="/platform-gsp" element={<PlatformGSP/>} />
+        <Route path="/platform-migele" element={<MigeleInstrument/>} />
+        <Route path="/platform-victor2" element={<Victor2DInstrument/>} />
+        <Route path="/biochemical-instruments-delfiatrio" element={<AutoDELFIA/>} />
+        <Route path="/platform-eonis" element={<EonisSystem/>} />
+        <Route path="/Punching-dbs-puncher" element={<DBSPuncher/>} />
+        <Route path="/punching-dbs-panthera" element={<DBS_Panthera/>} />
+
       </Routes>
       </BrowserRouter>  
   );

@@ -49,7 +49,7 @@ const Punching = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="punching-1 clearfix">
                   <div className="entry-image">
-                    <Link to="/punching-dbs-puncher.html">
+                    <Link to="/Punching-dbs-puncher">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
@@ -65,7 +65,7 @@ const Punching = () => {
               <div className="col-md-4 col-sm-6 bottommargin">
                 <div className="punching-2 clearfix">
                   <div className="entry-image">
-                    <Link to="/punching-dbs-panthera.html">
+                    <Link to="/punching-dbs-panthera">
                       <img
                         className="image_fade"
                         src="/images/life-science-1.png"
