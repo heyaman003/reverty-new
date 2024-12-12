@@ -32,7 +32,7 @@ const ClinicalDiagnosticsBiochemicalPrenatalTesting = () => {
       <div id="" className={`clearfix `}>
         {/* Logo */}
         <div id="logo">
-          <Link to="/index.html" className="standard-logo">
+          <Link to="/" className="standard-logo">
             <img src="/images/logo.png" alt="revvity" />
           </Link>
         </div>
@@ -207,16 +207,16 @@ const ClinicalDiagnosticsBiochemicalPrenatalTesting = () => {
         {/* Breadcrumb */}
         <ol className="breadcrumb">
           <li>
-            <Link to="/index.html">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/portfolio.html">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="/clinical-diagnostics.html">Clinical & Diagnostics</Link>
+            <Link to="/clinical-diagnostics">Clinical & Diagnostics</Link>
           </li>
           <li>
-            <Link to="/clinical-diagnostics-newborn.html">Newborn Screening</Link>
+            <Link to="/clinical-diagnostics-newborn">Newborn Screening</Link>
           </li>
           <li className="active">Biochemical Prenatal Testing</li>
         </ol>

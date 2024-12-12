@@ -105,8 +105,8 @@ const ClinicalDiagnostics = () => {
 
         {/* Breadcrumb */}
         <ol className="breadcrumb">
-          <li><Link to="../index.html">Home</Link></li>
-          <li><Link to="portfolio.html">Portfolio</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
           <li className="active">Clinical & Diagnostics</li>
         </ol>
 

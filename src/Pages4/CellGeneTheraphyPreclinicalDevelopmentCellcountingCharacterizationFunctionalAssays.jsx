@@ -1,26 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const CellGeneTheraphyTherapeuticPayloadDeliveryDelivery = () => {
+
+const CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssays = () => {
   return (
     <div className="stretched">
-      
+     
 
       {/* Wrapper */}
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
           <Link to="/" className="standard-logo">
-            <img src="../images/logo.png" alt="revvity" />
+            <img src="../images/logo.png" alt="Revvity" />
           </Link>
         </div>
 
         {/* Back Button */}
         <div id="back">
           <Link
-            to="/CellGeneTheraphyTherapeuticPayloadDelivery"
+            to="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterization"
             className="standard-back"
           >
-            <img src="../images/back.png" alt="back" />
+            <img src="../images/back.png" alt="Back" />
           </Link>
         </div>
 
@@ -32,22 +33,22 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryDelivery = () => {
             muted
             loop
             playsInline
-            src="../images/delivery.webm"
-          ></video>
+            src="../images/functional-assays.webm"
+          />
         </div>
 
         {/* Content Section */}
         <section id="content">
           <div className="clearfix">
-            {/* Solution 1 */}
+            {/* Functional Assay 1 */}
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="sample_preparation_solution_1 clearfix">
+              <div className="functional_assays_1 clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryAdenoAssociatedViruses">
+                  <Link to="/CellGeneTheraphyPreclinicalDevelopmentCellountingCharacterizationFunctionalAssaysUltraleaf">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Image"
+                      alt="Functional Assay 1"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -55,15 +56,15 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryDelivery = () => {
               </div>
             </div>
 
-            {/* Solution 2 */}
+            {/* Functional Assay 2 */}
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="sample_preparation_solution_2 clearfix">
+              <div className="functional_assays_2 clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryDirectedEvolution">
+                  <Link to="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysGoinvivo">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Image"
+                      alt="Functional Assay 2"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -71,15 +72,15 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryDelivery = () => {
               </div>
             </div>
 
-            {/* Solution 3 */}
+            {/* Functional Assay 3 */}
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="sample_preparation_solution_3 clearfix">
+              <div className="functional_assays_3 clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryDeliveryNanobodyTargeting">
+                  <Link to="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysRecombinant">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Image"
+                      alt="Functional Assay 3"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -91,31 +92,22 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryDelivery = () => {
 
         {/* Breadcrumb */}
         <ol className="breadcrumb">
+        <li><Link to="/">Home</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/ResearchAndDevelopment">Research & Development</Link></li>
+          <li><Link to="/ResearchSolution">Research Solution</Link></li>
+          <li><Link to="/CellGeneTheraphy">Cell & Gene Therapy</Link></li>
+          <li><Link to="/CellGeneTheraphyPreclinicalDevelopment">Preclinical Development</Link></li>
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li>
-            <Link to="/ResearchAndDevelopment">Research & Development</Link>
-          </li>
-          <li>
-            <Link to="/ResearchSolution">Research Solution</Link>
-          </li>
-          <li>
-            <Link to="/CellGeneTheraphy">Cell & Gene Theraphy</Link>
-          </li>
-          <li>
-            <Link to="/CellGeneTheraphyTherapeuticPayloadDelivery">
-              Therapeutic Payload and Delivery
+            <Link to="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterization">
+              Cell Counting and Characterization
             </Link>
           </li>
-          <li className="active">Delivery</li>
+          <li className="active">Functional Assay</li>
         </ol>
       </div>
     </div>
   );
 };
 
-export default CellGeneTheraphyTherapeuticPayloadDeliveryDelivery;
+export default CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssays;

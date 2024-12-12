@@ -9,14 +9,14 @@ const BioQuleNGSSystem = () => {
     <div className="clearfix">
       {/* Logo */}
       <div id="logo">
-        <Link to="../index.html" className="standard-logo">
+        <Link to="/" className="standard-logo">
           <img src="../images/logo.png" alt="revvity" />
         </Link>
       </div>
 
       {/* Back Button */}
       <div id="back">
-        <Link to="genomic-analysis-liquid-handling-workstations.html" className="standard-back">
+        <Link to="/genomic-analysis-liquid-handling-workstations" className="standard-back">
           <img src="../images/back.png" alt="back" />
         </Link>
       </div>

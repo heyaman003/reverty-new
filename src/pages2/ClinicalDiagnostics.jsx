@@ -41,7 +41,7 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-1 clearfix">
                 <div className="entry-image">
-                  <Link to="clinical-diagnostics-biochemical-prenatal-testing.html">
+                  <Link to="/clinical-diagnostics-biochemical-prenatal-testing">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
@@ -57,7 +57,7 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-2 clearfix">
                 <div className="entry-image">
-                  <Link to="clinical-diagnostics-newborn.html">
+                  <Link to="/clinical-diagnostics-newborn">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
@@ -73,7 +73,7 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-3 clearfix">
                 <div className="entry-image">
-                  <Link to="clinical-diagnostics-preeclampsia-testing.html">
+                  <Link to="/clinical-diagnostics-preeclampsia-testing">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
@@ -89,7 +89,7 @@ const ClinicalDiagnostics = () => {
             <div className="col-md-4 col-sm-6 bottommargin">
               <div className="diagnostics-4 clearfix">
                 <div className="entry-image">
-                  <Link to="clinical-diagnostics-nipt.html">
+                  <Link to="/clinical-diagnostics-nipt">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
@@ -105,8 +105,8 @@ const ClinicalDiagnostics = () => {
 
         {/* Breadcrumb */}
         <ol className="breadcrumb">
-          <li><Link to="../index.html">Home</Link></li>
-          <li><Link to="portfolio.html">Portfolio</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
           <li className="active">Clinical & Diagnostics</li>
         </ol>
 

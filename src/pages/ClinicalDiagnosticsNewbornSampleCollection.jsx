@@ -82,7 +82,7 @@ const ClinicalDiagnosticsNewbornSampleCollection = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/portfolio.html">Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
                 <Link to="/clinical-diagnostics">Clinical & Diagnostics</Link>

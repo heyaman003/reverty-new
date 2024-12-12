@@ -1,25 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
-const CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions = () => {
+import React from 'react';
+import { Link } from 'react-router-dom';
+const CellGeneTheraphyAqQc = () => {
   return (
-    <>
-
-      {/* Wrapper */}
+    <div className="stretched">
+      
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
-          <Link to="/" className="standard-logo">
+          <Link to="../index.html" className="standard-logo">
             <img src="../images/logo.png" alt="Revvity" />
           </Link>
         </div>
 
         {/* Back Button */}
         <div id="back">
-          <Link
-            to="/CellGeneTheraphyTherapeuticPayloadDelivery"
-            className="standard-back"
-          >
-            <img src="../images/back.png" alt="back" />
+          <Link to="/CellGeneTheraphy" className="standard-back">
+            <img src="../images/back.png" alt="Back" />
           </Link>
         </div>
 
@@ -31,7 +27,7 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions = () => {
             muted
             loop
             playsInline
-            src="../images/therapy-solutions.webm"
+            src="../images/02/03/05-QA-QC.webm"
           ></video>
         </div>
 
@@ -39,58 +35,41 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions = () => {
         <section id="content">
           <div className="clearfix">
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="therapy_solution_1 clearfix">
+              <div className="sample_preparation_solution clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMojosort">
+                  <Link to="/CellGeneTheraphyAqQcNucleicAcidIsolation">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Image"
+                      alt="Solution 1"
                       style={{ opacity: 1 }}
                     />
                   </Link>
                 </div>
               </div>
             </div>
-
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="therapy_solution_2 clearfix">
+              <div className="sample_preparation_solution clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsCellCounters">
+                  <Link to="/CellGeneTheraphyAqQcCapsidDetectionKits">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Image"
+                      alt="Solution 2"
                       style={{ opacity: 1 }}
                     />
                   </Link>
                 </div>
               </div>
             </div>
-
             <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="therapy_solution_3 clearfix">
+              <div className="sample_preparation_solution clearfix">
                 <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsHomogeneousImmunoassays">
+                  <Link to="/CellGeneTheraphyAqQcLabchipAav">
                     <img
                       className="image_fade"
                       src="../images/life-science-1.png"
-                      alt="Image"
-                      style={{ opacity: 1 }}
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-6 bottommargin">
-              <div className="therapy_solution_4 clearfix">
-                <div className="entry-image">
-                  <Link to="/CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutionsMultiplexPanels">
-                    <img
-                      className="image_fade"
-                      src="../images/life-science-1.png"
-                      alt="Image"
+                      alt="Solution 3"
                       style={{ opacity: 1 }}
                     />
                   </Link>
@@ -109,7 +88,7 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions = () => {
             <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="/ResearchAndDevelopment">Research & Development</Link>
+            <Link to="/ResearchAndAevelopment">Research & Development</Link>
           </li>
           <li>
             <Link to="/ResearchSolution">Research Solution</Link>
@@ -118,15 +97,15 @@ const CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions = () => {
             <Link to="/CellGeneTheraphy">Cell & Gene Therapy</Link>
           </li>
           <li>
-            <Link to="/CellGeneTheraphyTherapeuticPayloadDelivery">
-              Therapeutic Payload and Delivery
+            <Link to="/CellGeneTheraphyPreclinicalDevelopment">
+              Preclinical Development
             </Link>
           </li>
-          <li className="active">CAR-T Therapy Solutions</li>
+          <li className="active">QA/QC, Efficacy and Safety</li>
         </ol>
       </div>
-    </>
+    </div>
   );
 };
 
-export default CellGeneTheraphyTherapeuticPayloadDeliveryTherapySolutions;
+export default CellGeneTheraphyAqQc;

@@ -11,14 +11,14 @@ const PlatformQsight = () => {
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
-          <a href="../index.html" className="standard-logo">
+          <a href="/" className="standard-logo">
             <img src="../images/logo.png" alt="revvity" />
           </a>
         </div>
 
         {/* Back Button */}
         <div id="back">
-          <a href="platforms.html" className="standard-back">
+          <a href="/platforms" className="standard-back">
             <img src="../images/back.png" alt="back" />
           </a>
         </div>
@@ -123,19 +123,19 @@ const PlatformQsight = () => {
         {/* Breadcrumb */}
         <ol className="breadcrumb">
           <li>
-            <a href="../index.html">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="clinical-diagnostics.html">Clinical & Diagnostics</a>
+            <a href="/clinical-diagnostics">Clinical & Diagnostics</a>
           </li>
           <li>
-            <a href="clinical-diagnostics-newborn.html">Newborn Screening</a>
+            <a href="/clinical-diagnostics-newborn">Newborn Screening</a>
           </li>
           <li>
-            <a href="platforms.html">Platforms</a>
+            <a href="/platforms">Platforms</a>
           </li>
           <li className="active">QSight® MD systems</li>
         </ol>

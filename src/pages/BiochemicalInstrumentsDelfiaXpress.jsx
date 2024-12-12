@@ -8,7 +8,7 @@ const BiochemicalInstrumentsDelfiaXpress = () => {
     <>
       <div id="" className="clearfix">
         <div id="logo">
-          <Link to="../index.html" className="standard-logo">
+          <Link to="/" className="standard-logo">
             <img src="../images/logo.png" alt="revvity" />
           </Link>
         </div>
@@ -112,16 +112,16 @@ const BiochemicalInstrumentsDelfiaXpress = () => {
 
         <ol className="breadcrumb">
           <li>
-            <Link to="../index.html">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="portfolio.html">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="clinical-diagnostics.html">Clinical & Diagnostics</Link>
+            <Link to="/clinical-diagnostics">Clinical & Diagnostics</Link>
           </li>
           <li>
-            <Link to="clinical-diagnostics-biochemical-prenatal-testing.html">
+            <Link to="/clinical-diagnostics-biochemical-prenatal-testing">
               Biochemical Prenatal Testing
             </Link>
           </li>

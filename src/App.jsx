@@ -114,6 +114,35 @@ import EonisSystem from './pages/PlatformEonis';
 import DBSPuncher from './pages/PunchingDbsPuncher';
 import DBS_Panthera from './pages/PunchingQuater';
 
+// Pages4 Imports ^^^^^^^^^^^^^^^ 
+import CellGeneTheraphyPreclinicalDevelopment from './Pages4/CellGeneTheraphyPreclinicalDevelopment';
+import CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterization from './Pages4/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterization';
+import CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationCellecaMx from './Pages4/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationCellecaMx';
+import CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssays from './Pages4/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssays';
+import CellGeneTheraphyPreclinicalDevelopmentCellountingCharacterizationFunctionalAssaysUltraleaf from './Pages4/CellGeneTheraphyPreclinicalDevelopmentCellountingCharacterizationFunctionalAssaysUltraleaf';
+import CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysGoinvivo from './Pages4/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysGoinvivo';
+import CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysRecombinant from './Pages4/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysRecombinant';
+import CellGeneTherapyOrganoidDevelopment from './Pages4/CellGeneTherapyOrganoidDevelopment';
+import CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentCultureMedium from './Pages4/CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentCultureMedium';
+import CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentSerumSubstitute from './Pages4/CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentSerumSubstitute';
+import CellGeneTherapyCellImaging from './Pages4/CellGeneTherapyCellImaging';
+import CellGeneTherapyInvivo from './Pages4/CellGeneTherapyInvivo';
+import CellGeneTherapyLabchipAav from './Pages4/CellGeneTherapyLabchipAav';
+import CellGeneTheraphyAqQc from './Pages4/CellGeneTheraphyAqQc';
+import CellGeneTheraphyAqQcNucleicAcidIsolation from './Pages4/CellGeneTheraphyAqQcNucleicAcidIsolation';
+import CellGeneTheraphyAqQcChemagic360 from './Pages4/CellGeneTheraphyAqQcChemagic360';
+import CellGeneTheraphyAqQcChemagicPrime from './Pages4/CellGeneTheraphyAqQcChemagicPrime';
+import CellGeneTheraphyAqQcChemagicPrepitoInstrument from './Pages4/CellGeneTheraphyAqQcChemagicPrepitoInstrument';
+import CellGeneTheraphyAqQcCapsidDetectionKits from './Pages4/CellGeneTheraphyAqQcCapsidDetectionKits';
+import CellGeneTheraphyAqQcLabchipAav from './Pages4/CellGeneTheraphyAqQcLabchipAav';
+import CellGeneTheraphyManufacturingScaleup from './Pages4/CellGeneTheraphyManufacturingScaleup';
+import CellGeneTheraphyManufacturingScaleupIntegratedAutomationSystems from './Pages4/CellGeneTheraphyManufacturingScaleupIntegratedAutomationSystems';
+import CellGeneTheraphyManufacturingAdenoAssociatedVirusVectors from './Pages4/CellGeneTheraphyManufacturingAdenoAssociatedVirusVectors';
+import CellGeneTheraphyManufacturingLabchipAav from './Pages4/CellGeneTheraphyManufacturingLabchipAav';
+import CellGeneTheraphyManufacturingScaleupLentiviralVector from './Pages4/CellGeneTheraphyManufacturingScaleupLentiviralVector';
+import CellGeneTheraphyManufacturingLentiboostTransductionEnhancer from './Pages4/CellGeneTheraphyManufacturingLentiboostTransductionEnhancer';
+import CellGeneTheraphyManufacturingBiolegendsGrade from './Pages4/CellGeneTheraphyManufacturingBiolegendsGrade';
+
 function App() {
   
 
@@ -238,6 +267,36 @@ function App() {
         <Route path="/platform-eonis" element={<EonisSystem/>} />
         <Route path="/Punching-dbs-puncher" element={<DBSPuncher/>} />
         <Route path="/punching-dbs-panthera" element={<DBS_Panthera/>} />
+
+
+
+        <Route path="/CellGeneTheraphyPreclinicalDevelopment" element={<CellGeneTheraphyPreclinicalDevelopment/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterization" element={<CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterization/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationCellecaMx" element={<CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationCellecaMx/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssays" element={<CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssays/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentCellountingCharacterizationFunctionalAssaysUltraleaf" element={<CellGeneTheraphyPreclinicalDevelopmentCellountingCharacterizationFunctionalAssaysUltraleaf/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysGoinvivo" element={<CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysGoinvivo/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysRecombinant" element={<CellGeneTheraphyPreclinicalDevelopmentCellcountingCharacterizationFunctionalAssaysRecombinant/>} />
+        <Route path="/CellGeneTherapyOrganoidDevelopment" element={<CellGeneTherapyOrganoidDevelopment/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentCultureMedium" element={<CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentCultureMedium/>} />
+        <Route path="/CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentSerumSubstitute" element={<CellGeneTheraphyPreclinicalDevelopmentOrganoidDevelopmentSerumSubstitute/>} />
+        <Route path="/CellGeneTherapyCellImaging" element={<CellGeneTherapyCellImaging/>} />
+        <Route path="/CellGeneTherapyInvivo" element={<CellGeneTherapyInvivo/>} />
+        <Route path="/CellGeneTherapyLabchipAav" element={<CellGeneTherapyLabchipAav/>} />
+        <Route path="/CellGeneTheraphyAqQc" element={<CellGeneTheraphyAqQc/>} />
+        <Route path="/CellGeneTheraphyAqQcNucleicAcidIsolation" element={<CellGeneTheraphyAqQcNucleicAcidIsolation/>} />
+        <Route path="/CellGeneTheraphyAqQcChemagic360" element={<CellGeneTheraphyAqQcChemagic360/>} />
+        <Route path="/CellGeneTheraphyAqQcChemagicPrime" element={<CellGeneTheraphyAqQcChemagicPrime/>} />
+        <Route path="/CellGeneTheraphyAqQcChemagicPrepitoInstrument" element={<CellGeneTheraphyAqQcChemagicPrepitoInstrument/>} />
+        <Route path="/CellGeneTheraphyAqQcCapsidDetectionKits" element={<CellGeneTheraphyAqQcCapsidDetectionKits/>} />
+        <Route path="/CellGeneTheraphyAqQcLabchipAav" element={<CellGeneTheraphyAqQcLabchipAav/>} />
+        <Route path="/CellGeneTheraphyManufacturingScaleup" element={<CellGeneTheraphyManufacturingScaleup/>} />
+        <Route path="/CellGeneTheraphyManufacturingScaleupIntegratedAutomationSystems" element={<CellGeneTheraphyManufacturingScaleupIntegratedAutomationSystems/>} />
+        <Route path="/CellGeneTheraphyManufacturingAdenoAssociatedVirusVectors" element={<CellGeneTheraphyManufacturingAdenoAssociatedVirusVectors/>} />
+        <Route path="/CellGeneTheraphyManufacturingLabchipAav" element={<CellGeneTheraphyManufacturingLabchipAav/>} />
+        <Route path="/CellGeneTheraphyManufacturingScaleupLentiviralVector" element={<CellGeneTheraphyManufacturingScaleupLentiviralVector/>} />
+        <Route path="/CellGeneTheraphyManufacturingLentiboostTransductionEnhancer" element={<CellGeneTheraphyManufacturingLentiboostTransductionEnhancer/>} />
+        <Route path="/CellGeneTheraphyManufacturingBiolegendsGrade" element={<CellGeneTheraphyManufacturingBiolegendsGrade/>} />
 
       </Routes>
       </BrowserRouter>  

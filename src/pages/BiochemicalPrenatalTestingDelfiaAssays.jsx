@@ -23,7 +23,7 @@ const BiochemicalPrenatalTestingDelfiaAssays = () => {
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
-          <Link to="/index.html" className="standard-logo">
+          <Link to="/" className="standard-logo">
             <img src="/images/logo.png" alt="revvity" />
           </Link>
         </div>
