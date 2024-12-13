@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const NewbornScreening = () => {
   // State for Modal 1
   const [isModal1Open, setModal1Open] = useState(false);
-  
+  const [tab1,SetTab1]=useState(true);
   // State for Modal 2
   const [isModal2Open, setModal2Open] = useState(false);
 
@@ -27,7 +27,7 @@ const NewbornScreening = () => {
       <div id="" className="clearfix">
         {/* Logo */}
         <div id="logo">
-          <Link to="/" className="standard-logo">
+          <Link to="/index.html" className="standard-logo">
             <img src="../images/logo.png" alt="revvity" />
           </Link>
         </div>
@@ -175,12 +175,12 @@ const NewbornScreening = () => {
                   <div className="feature-box fbox-center fbox-effect nobottomborder nobottommargin" style={{ padding: '40px' }}>
                     <ul className="tabs">
                       <li>
-                        <button className="subtab softwaretabs" onClick={() => { /* Handle tab switch */ }}>
+                        <button className="subtab softwaretabs" onClick={() => SetTab1(true)}>
                           Specimen Gate Software
                         </button>
                       </li>
                       <li>
-                        <button className="subtab softwaretabs" onClick={() => { /* Handle tab switch */ }}>
+                        <button className="subtab softwaretabs" onClick={() => SetTab1(false)}>
                           EVOYA
                         </button>
                       </li>
@@ -189,7 +189,7 @@ const NewbornScreening = () => {
                     {/* Tab Content */}
                     <div id="tab-content">
                       {/* Tab 1 Content */}
-                      <div id="tab8-1">
+                    { tab1? <div id="tab8-1">
                         <div className="row">
                           <div className="col-md-12">
                             <p>
@@ -262,10 +262,7 @@ const NewbornScreening = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
-
-                      {/* Tab 2 Content */}
-                      <div id="tab8-2">
+                      </div>:<div id="tab8-2">
                         <div className="row">
                           <div className="col-md-12">
                             <p>
@@ -322,7 +319,7 @@ const NewbornScreening = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div>}
 
                     </div>
                   </div>
@@ -537,13 +534,13 @@ const NewbornScreening = () => {
             {/* Breadcrumbs */}
             <ol className="breadcrumb">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/index.html">Home</Link>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/portfolio.html">Portfolio</Link>
               </li>
               <li>
-                <Link to="/clinical-diagnostics">Clinical & Diagnostics</Link>
+                <Link to="/clinical-diagnostics.html">Clinical & Diagnostics</Link>
               </li>
               <li className="active">Newborn Screening</li>
             </ol>
